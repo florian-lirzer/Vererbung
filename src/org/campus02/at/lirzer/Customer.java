@@ -2,7 +2,7 @@ package org.campus02.at.lirzer;
 
 import java.util.ArrayList;
 
-public class Customer
+public class Customer extends Person
 {
     private int customerNumber;
     private ArrayList<Address> adresses = new ArrayList();
@@ -22,7 +22,9 @@ public class Customer
     {
         return "Customer{" +
                 "customerNumber=" + customerNumber +
-                ", Adresses=" + adresses +
+                ", adresses=" + adresses +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
                 '}';
     }
 }
