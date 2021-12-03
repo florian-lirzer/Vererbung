@@ -12,4 +12,9 @@ public class Osterhase extends Hase
     {
         System.out.println(getName() + " versteckt Geschenke und Ostereier");
     }
+
+    public void bemalen()
+    {
+        System.out.println(getName() + " bemalt Ostereier");
+    }
 }
