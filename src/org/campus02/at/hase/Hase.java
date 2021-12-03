@@ -29,6 +29,6 @@ public class Hase
 
     public void verteilen()
     {
-        System.out.println(name + " ist eine Hase und verteilt nichts");
+        System.out.println(name + " ist ein Hase und verteilt nichts");
     }
 }

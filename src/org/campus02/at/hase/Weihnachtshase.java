@@ -10,6 +10,6 @@ public class Weihnachtshase extends Hase
     @Override
     public void verteilen()
     {
-        System.out.println(getName() + " verteilt Geschenke uter dem Christbaum");
+        System.out.println(getName() + " verteilt Geschenke unter dem Christbaum");
     }
 }
